@@ -1,0 +1,6 @@
+keras
+numpy
+os
+pandas
+seaborn
+tensorflow
