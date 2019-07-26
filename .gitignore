@@ -6,5 +6,7 @@
 **scratch**
 
 # High-churn files and folders
+tensorboard/*
+visualizations/*
 **ipynb_checkpoints**
 **pycache**
