@@ -5,7 +5,7 @@
 # Questions:
 - Aaron: do you think there is any way can improve our current format?
 
-# Some exploratory questions for ourselves:
+# Some general exploratory questions for ourselves:
 - Why use vanilla RNNs if they suffer from the vanishing gradient problem?
   - Are there instances where the vanishing gradient is useful?
 - Are there things that GRUs can do that LTSMs can't do?
@@ -25,8 +25,12 @@ Does the data trained need to be done in order?
 
 - Look into docs for keras.utils.plot_model(). After that: are there any guides on how to interpret it?
 - Is there a way to incorporate multiple RNN types on the same level? Are there benefits to mixing RNN cells? In what way?
-- In Siddarth's notebook, he imports a Bidirectional TF layer but never 
+- Q: In Siddarth's notebook, he imports a Bidirectional TF layer but never 
 uses it (only mentions it) -- how is it employed? What's the output? ffDoes it provide extra power?
+  - A: https://www.quora.com/When-should-one-use-bidirectional-LSTM-as-opposed-to-normal-LSTM
+  - A: It appears as though bidirectional LTSMs don't just use past data but also utilize future data to produce outcomes.
+Think of a fill-in-the-blank: "I am __ student" -- a bidirectional LTSM would have access to the word 'student', and so 
+could fill in the blank with the word 'a'. Appears to be very useful for NLP, not so much for stock prediction.
 
 # Potential interview questions
 - What are the effects of decreasing batch_size? Why wouldn't you want 
