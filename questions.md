@@ -1,6 +1,6 @@
 # Regarding .iloc (delete after conversation done):
 - It's an indexer
-- I believe he's using .iloc to select column index of 1 (hence the column range of 1:2) which is the "High" columns
+- I believe he's using .iloc to select column index of 1 (hence the column range of 1:2) which is the "High" column
 - He MIGHT have been able to use the indexer '.loc' which grabs columns BY NAME instead of by index (alot cleaner IMO, but im not 100% sure, ill have to test it)
 - standard format/use => DataFrame.iloc[ <rows go here> , <columns go here> ]
   - Select all rows and all columns goes like this: DataFrame.iloc[:,:]
