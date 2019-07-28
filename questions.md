@@ -1,8 +1,8 @@
 # Questions:
-- 
+- Aaron: do you think there is any way can improve our current format?
 
 # Some exploratory questions for ourselves:
-- Why use RNNs if they suffer from the vanishing gradient problem?
+- Why use vanilla RNNs if they suffer from the vanishing gradient problem?
   - Are there instances where the vanishing gradient is useful?
 - Are there things that GRUs can do that LTSMs can't do?
 - At what point do performance b/w LTSMs and GRUs diverge?
