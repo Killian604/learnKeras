@@ -1,3 +1,11 @@
+# Food for thought:
+- We should consider a method by which to classify what day of the week 
+trade is occuring. I say this because there is a BIG difference between 
+comparing Monday trade to Tuesday trade and comparing Friday trade to 
+the following Monday trade (news over the weekend can make a stock very 
+hot/cold). On the other hand, we could assume this problem washes out 
+because we're looking at daily ticks and not hourly. Thoughts?
+
 # LTSM VIDEO:
 - https://www.youtube.com/watch?v=8HyCNIVRbSU
 
