@@ -30,7 +30,7 @@ Does the data trained need to be done in order?
 - What are the effects of decreasing epochs at the same time as decreasing batch size?
 - How exactly can you input multiple features into an RNN at a single time? what's the input array shape?
   - (AFAIK, the first dimension is the input sets themselves...so are the features added in the 2nd or 3rd dim?)
-
+- Is there a "best" optimizer for RNNs?
 
 - Look into docs for keras.utils.plot_model(). After that: are there any guides on how to interpret it?
 - Is there a way to incorporate multiple RNN types on the same level? Are there benefits to mixing RNN cells? In what way?
