@@ -1,5 +1,6 @@
 # Questions:
 - Aaron: do you think there is any way can improve our current format?
+  - K: Format in terms of?
 
 # Some exploratory questions for ourselves:
 - Why use vanilla RNNs if they suffer from the vanishing gradient problem?
