@@ -1,6 +1,11 @@
+IPython
 keras
+matplotlib
 numpy
 os
 pandas
+re
 seaborn
+sklearn
+tensorboard
 tensorflow
